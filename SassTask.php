@@ -1,4 +1,5 @@
 <?php
+
 /**
  * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
  * "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
@@ -23,7 +24,7 @@
  * @license  LGPL (see http://www.gnu.org/licenses/lgpl.html)
  */
 
-namespace Phing\Task\Ext;
+namespace Phing\Task\Ext\Sass;
 
 use Exception;
 use Phing\Exception\BuildException;
@@ -47,7 +48,6 @@ use Phing\Util\StringHelper;
  */
 class SassTask extends Task
 {
-
     /**
      * Style to generate to.
      *
